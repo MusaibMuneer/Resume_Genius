@@ -1,0 +1,58 @@
+
+.Resume2-header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 5%;
+}
+.Resume2-body{
+    display: flex;
+    justify-content: space-around;
+}
+.Resume2-body-left{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 2%;
+    width:20vw;
+}
+.Resume2-body-right{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width:60vw;
+}
+.Resume2-body-left h4{
+    padding:10px 0px;
+}
+.Resume2-body-right h4{
+    padding:10px 0px;
+}
+
+.Resume2-body-left-education div{
+    padding:3px 0px;
+}
+.Resume2-body-left-skillslist{
+    padding:3px 0px;
+}
+.Resume2-body-right-workexp div{
+    padding:10px 0px;
+}
+.Resume2-body-right-workexp-level-insights{
+    padding:2px 0px;
+}
+
+.Resume{
+    min-height: 100%;
+}
+.Resume2-body-left-contact{
+    margin-bottom: 2px;
+}
+.resumetwobodyrighteducation{
+    margin-bottom: 10px;
+}
+
+.Resume2-body-right-summary{
+    margin-bottom: 40px;
+}

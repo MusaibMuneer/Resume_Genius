@@ -1,0 +1,132 @@
+.Resume {
+  min-height: 100vh;
+  height: auto;
+}
+.resumeoneheader {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  /* justify-content: center;
+    gap: 100px; */
+  border-bottom: 2px solid black;
+  background-color: rgb(255, 251, 240);
+}
+.resumeoneheader-imagej {
+  border-radius: 2px;
+}
+.resumeoneheaderX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  /* justify-content: flex-start; */
+  align-items: center;
+  /* align-items: flex-start; */
+}
+.resumeoneheading {
+  font-size: 70px;
+  border-bottom: 2px solid black;
+}
+.resumeonejobtitle {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0px;
+}
+.resumeonebody {
+  display: flex;
+  justify-content: space-around;
+}
+.resumeonebody {
+  padding: 20px 40px;
+}
+.resumeonebodyleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 30px;
+}
+.resumeonebodyleftlanguages ul {
+  margin: 0; /* remove top and bottom margin */
+  padding: 0; /* remove padding */ /* remove bullets */
+}
+.resumeonebodyright {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resumeonebodyright ul {
+  margin: 0; /* remove top and bottom margin */
+  padding: 0; /* remove padding */ /* remove bullets */
+  list-style: none;
+}
+.Resume {
+  height: 100px;
+}
+.resumeonebodyleftcontact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resumeonebodyleftaboutme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resumeonebodyleftskills {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.indiviualskills {
+  margin-top: 4px;
+  padding-left: 20px;
+}
+
+.resumeonebodyleftlanguages {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.indiviuallang {
+  margin-top: 4px;
+}
+
+.resumeonebodyrighteducation {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.resumeonebodyrighteducationlevels {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.indiviualedu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.resumeonebodyrightworkexp {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.resumeonebodyrightworkexlevels {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.indiviualexp {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

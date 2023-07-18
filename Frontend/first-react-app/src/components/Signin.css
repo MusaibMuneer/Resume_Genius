@@ -1,0 +1,69 @@
+.main {
+  height: auto;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.signintext {
+  padding-left: 80px;
+}
+.forms {
+  padding-left: 30px;
+  padding-top: 100px;
+}
+.quotes {
+  /* height: 100vh; */
+  height: auto;
+  min-height: 100vh;
+  border-radius: 1%;
+  background-color: darkgreen;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.quoting {
+  font-family: "Alkatra", cursive;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.author {
+  font-family: "Alkatra", cursive;
+  text-decoration: underline;
+  font-size: 24px;
+  color: aliceblue;
+  margin: 10px 0 0 0;
+}
+
+.textfield {
+  min-width: 300px;
+  min-height: 30px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 6px;
+}
+
+.subbut{
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.signin-form{
+  display: flex;
+  flex-direction: column;
+}

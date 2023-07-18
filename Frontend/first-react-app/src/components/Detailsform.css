@@ -1,0 +1,117 @@
+.myfillform {
+  background-color: teal;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.mymainform {
+  background-color: whitesmoke;
+  border-radius: 10%;
+  padding: 10px;
+  padding-left: 10%;
+  width: 80%;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mymainform h2 {
+  padding-top: 10px;
+}
+.heading {
+  padding-bottom: 30px;
+  padding: 20px;
+}
+.mymainform label {
+  padding-top: 20px;
+}
+.mymainform input {
+  padding-left: 1px;
+  width: 300px;
+  border-radius: 10px;
+  min-height: 30px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.education-block {
+  padding: 10px 0px;
+}
+
+.mymainform textarea {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.skills-container {
+  background-color: white;
+  width: 300px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  min-height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skilli {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 8px;
+}
+
+.skilli-input {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.Education {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.handleEducationAdd {
+  min-width: 100px;
+  padding: 6px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.handleexpadd {
+  min-width: 100px;
+  padding: 6px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.edusubmit {
+  min-width: 100px;
+  padding: 6px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.expsubmit {
+  min-width: 100px;
+  padding: 6px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.CO {
+  width: 500px;
+  padding: 10px;
+}

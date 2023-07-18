@@ -1,0 +1,131 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+ 
+@import
+url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato:wght@700&display=swap');
+
+.Landingstructure {
+  min-height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  border: solid black 1px;
+  background-color: teal;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+.listi {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 300px;
+}
+.belownav {
+  background-color: white;
+  padding-bottom: 2%;
+  /* margin-bottom: 5%; */
+}
+.wel {
+  padding: 20px;
+  font-family: "Alkatra", cursive;
+  text-align: center;
+  font-size: 100px;
+}
+.belowwelcome {
+  display: flex;
+}
+.aboutus {
+  width: 50%;
+}
+.aboutuspara {
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+.reviews {
+  width: 49%;
+  height: 450px;
+  border: solid;
+  background-color: lightblue;
+  display: flex;
+  border-radius: 2%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  border: none;
+}
+/* .image{
+    width: 80%;
+} */
+.remarks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alkatra", cursive;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  border: none;
+  /* border-radius: 10%; */
+}
+.name {
+  margin-top: 10px;
+  text-align: center;
+}
+.Landingfooter {
+  height: auto;
+  background-color: teal;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Landingfooter-list {
+  list-style: none;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Landingfooter-right{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.wel{
+  font-family: "Lato", sans-serif;
+}
+.imgx{
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.quote{
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+
+.name{
+  font-family: "Lato", sans-serif;
+}
+
+.signinbutton{
+  font-family: "Lato", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.registerbutton{
+  font-family: "Lato", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.Landingfooter{
+  font-family: "Lato", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
