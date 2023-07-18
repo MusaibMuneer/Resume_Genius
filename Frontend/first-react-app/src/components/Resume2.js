@@ -10,7 +10,7 @@ function Resume2() {
   useEffect(() => {
     const fetchData = async () => {
       axios
-        .get("http://localhost:8000/user/details", {
+        .get("https://resume-genius.onrender.com/user/details", {
           headers: {
             Authorization: `Bearer ${Cookies.get("accessToken")}`,
           },

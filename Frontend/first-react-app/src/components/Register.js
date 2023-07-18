@@ -18,7 +18,7 @@ function Register() {
     console.log("hello");
 
     if (password === confirmpass) {
-      axios.post('http://localhost:8000/user/Register',{ Name: name,
+      axios.post('https://resume-genius.onrender.com/user/Register',{ Name: name,
       Gender: gender,
       Qualifications:Qualification,
       email,

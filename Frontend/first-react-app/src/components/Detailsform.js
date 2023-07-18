@@ -43,7 +43,7 @@ function Detailsform() {
     //   languages: lang,
     //   references: refe,
     // };
-    axios.post('http://localhost:8000/user/register_details', {
+    axios.post('https://resume-genius.onrender.com/user/register_details', {
   name,
   profession: proff,
   contact,

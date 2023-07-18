@@ -9,7 +9,7 @@ function Feedbackform() {
   const handlesubmit = (e) => {
     e.preventDefault();
     axios.post(
-      "http://localhost:8000/user/feedback",
+      "https://resume-genius.onrender.com/user/feedback",
       { data },
       {
         headers: {
